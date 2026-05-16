@@ -198,7 +198,7 @@ elif pagina == "Solicitar Turno":
 
                 # LINK QR
                 link = (
-                    f"http://localhost:8501/consulta"
+                    f"https://urvdwepqnbrq8jhscjud5c.streamlit.app/consulta"
                     f"?personas={personas}"
                     f"&tiempo={tiempo_estimado}"
                     f"&turno={turno}"
