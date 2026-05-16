@@ -198,7 +198,7 @@ elif pagina == "Solicitar Turno":
 
                 # LINK QR
                 link = (
-                    f"http://localhost:8501/Consulta"
+                    f"http://localhost:8501/consulta"
                     f"?personas={personas}"
                     f"&tiempo={tiempo_estimado}"
                     f"&turno={turno}"
